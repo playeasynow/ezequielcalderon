@@ -37,7 +37,7 @@
     "dev": "gatsby develop -o",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
     "lint": "eslint . --ext .js,.jsx --ignore-path .gitignore",
     "lint:fix": "eslint . --ext .js,.jsx --fix --ignore-path .gitignore",
     "lint:ci": "yarn lint --format junit -o results/eslint/result.xml"
@@ -59,7 +59,7 @@
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/playeasynow/ezequielcalderon/issues"
+    "url": "https://github.com/playeasynow/ezequielcalderon"
   },
   "homepage": "https://www.ezequielcalderon.com"
 }
