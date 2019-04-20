@@ -55,11 +55,11 @@
     "prettier": "^1.17.0"
   },
   "repository": {
-    "url": "https://github.com/playeasynow",
+    "url": "https://github.com/playeasynow/ezequielcalderon",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/playeasynow"
+    "url": "https://github.com/playeasynow/ezequielcalderon/issues"
   },
   "homepage": "https://www.ezequielcalderon.com"
 }
