@@ -17,7 +17,7 @@ import Projects from '../views/Projects'
 import About from '../views/About'
 import Contact from '../views/Contact'
 
-import avatar from '../images/avatar.jpg'
+import avatar from '../images/ezequiel-headshot.jpg'
 
 const ProjectsWrapper = styled.div`
   ${tw`flex flex-wrap justify-between mt-8`};
@@ -62,10 +62,11 @@ const Index = () => (
     <Layout />
     <Parallax pages={5}>
       <Hero offset={0}>
-        <BigTitle>
-          Hello, <br /> I'm John Doe.
-        </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <BigTitle> Hello, I'm Ezequiel </BigTitle>
+        <Subtitle>
+          I work on software products and services with awesome people.
+          <br /> <br /> <a href="#">projects </a> | <a href="#">contact</a>
+        </Subtitle>
       </Hero>
       <Projects offset={1}>
         <Title>Projects</Title>
@@ -121,15 +122,15 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:ezequielcalderonjr@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://github.com/playeasynow">GitHub</a> &{' '}
+            <a href="https://www.instagram.com/playeasynow/">Instagram</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2019 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. Made by{' '}
-          <a href="https://www.lekoarts.de">LekoArts</a>.
+          &copy; 2019 by Ezequiel Calderon Jr{''} <br />
+          {/* <a href="https://github.com/playeasynow">Github Repository</a>. */}
+          {/* Made by{' '} <a href="https://www.ezequielcalderon.com">Ezequiel Calderon Jr</a>. */}
         </Footer>
       </Contact>
     </Parallax>
