@@ -1,23 +1,23 @@
 const tailwind = require('../tailwind')
 
 module.exports = {
-  pathPrefix: '/ezequielcalderon', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "/portfolio"
+  pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "/portfolio"
 
-  siteTitle: 'Ezequiel Calderon Jr', // Navigation and Site Title
-  siteTitleAlt: 'Ezequiel', // Alternative Site title for SEO
-  siteTitleShort: 'Ezequiel', // short_name for manifest
+  siteTitle: 'Cara - Gatsby Starter Portfolio', // Navigation and Site Title
+  siteTitleAlt: 'Cara', // Alternative Site title for SEO
+  siteTitleShort: 'Cara', // short_name for manifest
   siteHeadline: 'Creating marvelous art & blazginly fast websites', // Headline for schema.org JSONLD
-  siteUrl: 'https://www.ezequielcalderon.com', // Domain of your site. No trailing slash!
+  siteUrl: 'https://cara.lekoarts.de', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  siteLogo: '../public/favicons/transparent-circle-orange.png', // Used for SEO and manifest
-  siteDescription: 'Ezequiel Calderon Jr Portfolio Site',
-  author: 'Ezequiel Calderon Jr', // Author for schema.org JSONLD
+  siteLogo: '/logo.png', // Used for SEO and manifest
+  siteDescription: 'Playful & Colorful One-Page website with Parallax effect',
+  author: 'LekoArts', // Author for schema.org JSONLD
 
   // siteFBAppID: '123456789', // Facebook App ID - Optional
-  userTwitter: '@playeasynow', // Twitter Username
-  ogSiteName: 'ezequiel calderon jr', // Facebook Site Name
+  userTwitter: '@cara', // Twitter Username
+  ogSiteName: 'cara', // Facebook Site Name
   ogLanguage: 'en_US', // Facebook Language
-  googleAnalyticsID: '',
+  googleAnalyticsID: 'UA-47519312-5',
 
   // Manifest and Progress color
   themeColor: tailwind.colors.orange,
