@@ -9,7 +9,7 @@ var plugins = [{
       options: {"plugins":[],"trackingId":""},
     },{
       plugin: require('/Users/ezequiel/Projects/Web-Projects/gatsby-portfolio/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Ezequiel Calderon Jr","short_name":"Ezequiel","description":"Ezequiel Calderon Jr is a Product and Project Manager in the software industry.","start_url":"/","background_color":"#a0d8f1","theme_color":"#e07628","display":"standalone","icons":[{"src":"/favicons/ezequiel_nobackground.png","sizes":"192x192","type":"image/png"},{"src":"/favicons/ezequiel_nobackground.png","sizes":"512x512","type":"image/png"}]},
+      options: {"plugins":[],"name":"Ezequiel Calderon Jr","short_name":"Ezequiel","description":"Ezequiel Calderon Jr is a Product and Project Manager in the software industry.","start_url":"/ezequielcalderon","background_color":"#a0d8f1","theme_color":"#e07628","display":"standalone","icons":[{"src":"/favicons/ezequiel_nobackground.png","sizes":"192x192","type":"image/png"},{"src":"/favicons/ezequiel_nobackground.png","sizes":"512x512","type":"image/png"}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
