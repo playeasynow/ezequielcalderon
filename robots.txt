@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-sitemap: https://www.ezequielcalderon.com
+sitemap: https://www.ezequielcalderon.com/sitemap.xml
