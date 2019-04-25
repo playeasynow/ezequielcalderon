@@ -5,7 +5,7 @@ import { Parallax } from 'react-spring/renderprops-addons.cjs'
 
 // Components
 import Layout from '../components/Layout'
-import ProjectCard from '../components/ProjectCard'
+import ProjectCard  from '../components/ProjectCard'
 
 // Elements
 import Inner from '../elements/Inner'
@@ -65,7 +65,7 @@ const Index = () => (
         <BigTitle>
           Hello, I'm Ezequiel.
         </BigTitle>
-        <Subtitle>I like building user-friendly software with awesome people.<br /> <br /><a href="#">Projects</a> | <a href="#">About Me</a>
+        <Subtitle>I love building user-friendly software with mighty awesome people.<br /> <br /><a href="#">Projects</a> | <a href="#">About Me</a>
         </Subtitle>
       </Hero>
       <Projects offset={1}>

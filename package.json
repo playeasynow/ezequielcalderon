@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-portfolio-cara",
-  "description": "Playful & Colorful One-Page website with Parallax effect powered by react-spring, TailwindCSS.",
+  "name": "ezequiel-calderon-jr",
+  "description": "Ezequiel Calderon Jr's professional portfolio.",
   "version": "3.0.0",
-  "author": "LekoArts <hello@lekoarts.de> (https://www.lekoarts.de)",
+  "author": "Ezequiel Calderon Jr <ezequiel.calderon.jr@gmail.com> (https://www.ezequielcalderon.com)",
   "license": "MIT",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
@@ -30,7 +30,7 @@
   },
   "keywords": [
     "gatsby",
-    "starter",
+    "ezequiel",
     "portfolio"
   ],
   "scripts": {
@@ -53,11 +53,11 @@
     "prettier": "^1.17.0"
   },
   "repository": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara",
+    "url": "https://github.com/playeasynow/ezequielcalderon",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/LekoArts/gatsby-starter-portfolio-cara/issues"
+    "url": "https://github.com/playeasynow/ezequielcalderon/issues"
   },
-  "homepage": "https://cara.lekoarts.de"
+  "homepage": "https://www.ezequielcalderon.com"
 }
